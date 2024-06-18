@@ -1,1 +1,15 @@
 Backend - Data Points Store, Process, Serve.
+
+controller  :- Functionality.
+db          :- Connection Logics.
+middlewares
+models
+routes
+utils       :- File upload, Mailing, ...
+
+Libraries
+1. nodemon
+2. dotenv
+3. prettier :- for consistency in a team.
+
+.prettierrc :- contains configuration of the prettier.
