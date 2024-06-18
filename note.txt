@@ -35,3 +35,6 @@ Time. (async await)
 
 ;( () => {} )();
 
+
+----------------------------------------------------------------
+Custom API Response & Error Handling
