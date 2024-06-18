@@ -1,3 +1,4 @@
+Flow of Application Understanding.
 Backend - Data Points Store, Process, Serve.
 
 controller  :- Functionality.
@@ -13,3 +14,24 @@ Libraries
 3. prettier :- for consistency in a team.
 
 .prettierrc :- contains configuration of the prettier.
+
+
+----------------------------------------------------------------
+Handle Errors.
+API Responses.
+Modularity.
+Reusability.
+
+MongoDB Atlas :- Login -> Create New Project -> Create Cluster
+Correct ID & Password.
+Allow I.P Address.
+Connection String.
+
+.env contains system specific variable.
+Password :- Mongodbatlas@143
+
+Database is always an another continent.
+Time. (async await)
+
+;( () => {} )();
+

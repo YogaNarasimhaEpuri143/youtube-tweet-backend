@@ -30,3 +30,7 @@ Deployed Link - [youtube-tweet-backend]()
 1. git pull origin main --allow-unrelated-histories
 2. git merge origin/main --allow-unrelated-histories - if you've already fetched changes and just need to merge:
 
+# Connecting to databse
+
+1. -r dotenv/config --experimental-json-modules  :- to load Environment Variables & use module syntax.
+2. 
