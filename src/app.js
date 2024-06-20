@@ -15,6 +15,12 @@ app.use(express.urlencoded({ extended: true, limit: "16kb" })); // Nested Object
 app.use(express.static("public"));
 app.use(cookieParser());
 
+// router imports
+import userRouter from "./routes/user.routes.js";
+
+// router declarations
+app.use("/api/v1/users", userRouter);
+
 export { app };
 
 // Contain Configuration of the express app

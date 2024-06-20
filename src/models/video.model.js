@@ -20,12 +20,17 @@ schema.plugin(mongooseAggregatePaginate);
 export const video = mongoose.model("Video", schema);
 
 // Aggregation Queries.
-// Middlewares are specified at schema level.
-
-// Pre -> To Execute code, just before saving the data to the database.
 
 // Plugins are used to add extra functionality to the schema.
 // mongoose aggreagate pipeline.
+
+// Hook/Middleware   -> Function that runs automatically, at certain points in the lifecycle of database operation.
+// pre, post
+// Pre  -> To Execute code, just before saving the data to the database.
+// Post -> To Execute code, just after saving the data to the database
+
+// Events -> Signals, that something has happend.
+// save, validate, remove, ...
 
 // Cryptographic
 // bcrypt - Hash the passwords.
@@ -35,3 +40,10 @@ export const video = mongoose.model("Video", schema);
 // Refresh Token is stored in database.
 // Cookies
 // Session
+
+/** What to see
+ *
+ *    1. MongoDB Aggregate Pipeline.
+ *    2. bcrypt.
+ *    3. jwt
+ */

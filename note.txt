@@ -38,3 +38,117 @@ Time. (async await)
 
 ----------------------------------------------------------------
 Custom API Response & Error Handling
+
+
+----------------------------------------------------------------
+User and Video Model
+Plugin
+Hooks / middlewares
+Injecting Methods
+
+
+----------------------------------------------------------------
+How to Upload File in Backend
+Mostly File Handling is done by 3rd Party Service, Won't do on Own Codebase Service.
+Cloudinary
+multer                  -> Mostly Used.
+express-fileupload
+
+File System  -->  Server  --> local path --> Cloudinary  -->  remove from server.  
+
+
+
+
+----------------------------------------------------------------
+HTTP Explanation  (How to transfer the text)
+HTTP Headers. (Meta data - (key-value) pairs)
+
+Use Cases :- Caching, Authentication, Manage State  (User - guest, admin, products in cart)
+
+Request Headers.
+Response Headers.
+Representation Headers  -> Encoding / Compression.  (Data transfer over the network always have certain limitation)
+Payload Headers         -> Extra data.
+Security Headers
+
+Most Common Headers
+    1. Accept           :- application/json,  text/html
+    2. user-agent       :- from which application request came, (postman, which browser, engine)
+    3. Authorization    :- Bearer Token.
+    4. Content-Type     
+    5. Cookie
+    6. Cache-Control
+
+CORS
+    1. Access-Control-Allow-Origin
+    2. Access-Control-Allow-Credentials
+    3. Access-Control-Allow-Method
+
+Security
+    1. Cross-Origin-Embedded-Policy
+    2. Cross-Origin-Opener-Policy
+    3. Content-Security-Policy
+    4. X-XSS-Protection
+
+HTTP Methods
+    1. GET
+    2. POST
+    3. PUT      :- Replace a resource.
+    4. PATCH    :- Update some part of the resource.
+    5. DELETE   :- Delete a resource.
+    6. HEAD     :- No Message Body (Response headers only)
+    7. OPTIONS  :- What Operations are available.
+
+HTTP Status Codes
+    1. 1xx      :- Informational.
+    2. 2xx      :- Sucess.
+    3. 3xx      :- Redirection.
+    4. 4xx      :- Client Error.
+    5. 5xx      :- Server Error.
+
+    100 - continue
+    102 - processing
+    200 - ok
+    201 - created
+    202 - accepted
+    307 - temporarly redirect
+    308 - permanent redirect
+    400 - Bad request
+    401 - Unauthorized
+    402 - Payment Required
+    404 - Not Found
+    500 - Internal Server Error
+    504 - Gateway Timeout
+
+----------------------------------------------------------------
+MongoDB Aggreagation Pipelines
+ 1. Situational Questions.
+ 2. Contain multiple stages.
+ 3. Calculating Values, Grouping Data, Filtering Data.
+
+
+
+Graph chat -> Zerodha??  (lesser bandwidth)
+
+
+
+
+Things used from documentation
+  1. Error
+  2. Mongoose  ->  Middleware, Hooks, Injecting Methods.
+  3. Express   -> 
+  4. bcrypt & jwt
+  5. 
+
+
+
+Symbolic Link
+nano Ids
+
+SymLinks -> Symbolic Links.
+"unlink" in fs.unlinkSync comes from Unix/Linux terminology, where files are seen as links to data stored on disk.
+When you "unlink" a file, you are removing this link from the filesystem.
+If there are no other links(references) to the data, the data is also deleted.
+
+----------------------------------------------------------------
+Logic Building
